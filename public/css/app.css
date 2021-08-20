@@ -1,0 +1,44 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+}
+
+nav li:last-child a {
+  background: #740b2e;
+}
+
+nav li:last-child a:hover {
+  background: #f32b42;
+}
+
+nav li a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+nav li a:hover {
+  color: #f32b42;
+}
+
+section.hero {
+  background: #f8f8f8a6;
+}
+
+.size {
+  background: #f8f8f8a6;
+}
+
+.add-to-cart {
+  border: 2px solid #740b2e;
+  color: #740b2e;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background: #740b2e;
+  border-color: #fff;
+  color: #fff;
+}
+/*# sourceMappingURL=app.css.map */

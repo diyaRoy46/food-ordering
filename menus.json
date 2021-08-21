@@ -1,0 +1,62 @@
+[{
+    "_id": {
+    "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "food1",
+    "image": "food1.png",
+    "price": "250"
+    
+},{
+    "_id": {
+    "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "food2",
+    "image": "food2.png",
+    "price": "300"
+    
+},{
+    "_id": {
+    "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "food3",
+    "image": "food3.png",
+    "price": "200"
+    
+},{
+    "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "food4",
+    "image": "food4.png",
+    "price": "250"
+
+},{
+    "_id": {
+    "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "food5",
+    "image": "food5.png",
+    "price": "190"
+},{
+    "_id": {
+    "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "food6",
+    "image": "food6.png",
+    "price": "200"
+    
+},{
+    "_id": {
+    "$oid": "5eee66eea27a66807cf2bea8"
+    },
+    "name": "food7",
+    "image": "food7.png",
+    "price": "220"
+},{ 
+    "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+    },
+    "name": "food8",
+    "image": "pizza.png",
+    "price": "500"
+    }]

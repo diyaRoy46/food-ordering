@@ -9,7 +9,7 @@ nav li:last-child a {
 }
 
 nav li:last-child a:hover {
-  background: #fff;
+  background: #f32b42;
 }
 
 .btn-primary {
@@ -32,11 +32,11 @@ nav li a:hover {
 }
 
 section.hero {
-  background: #f8f8f8a6;
+  background: #f8f8f852;
 }
 
 .size {
-  background: #f8f8f8a6;
+  background: #f8f8f880;
 }
 
 .add-to-cart {
@@ -57,7 +57,7 @@ section.hero {
 }
 
 section.cart {
-  background: #f8f8f8a6;
+  background: #f8f8f880;
 }
 
 section.cart .amount {
@@ -65,7 +65,7 @@ section.cart .amount {
 }
 
 section.login {
-  background: #f8f8f8a6;
+  background: #f8f8f880;
   min-height: calc(100vh - 86px);
 }
 
@@ -82,7 +82,7 @@ a.link {
 }
 
 section.status {
-  background: #f8f8f8a6;
+  background: #f8f8f880;
   min-height: calc(100vh - 86px);
 }
 
@@ -110,8 +110,8 @@ section.status {
   border-radius: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-box-shadow: 0 0 1px 10px #f8f8f8a6;
-          box-shadow: 0 0 1px 10px #f8f8f8a6;
+  -webkit-box-shadow: 0 0 1px 10px #f8f8f880;
+          box-shadow: 0 0 1px 10px #f8f8f880;
 }
 
 .status-box ul li span:before {
@@ -162,8 +162,8 @@ section.status {
 }
 
 .status-box ul li:nth-child(5) span:after {
-  -webkit-box-shadow: 0 20px 1px 20px #f8f8f8a6;
-          box-shadow: 0 20px 1px 20px #f8f8f8a6;
+  -webkit-box-shadow: 0 20px 1px 20px #f8f8f880;
+          box-shadow: 0 20px 1px 20px #f8f8f880;
 }
 
 .status-box ul li.step-completed:before {

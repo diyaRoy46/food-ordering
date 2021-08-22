@@ -14,6 +14,7 @@
                     </div>
                     <span class="flex-1"><%= food.qty %> Pcs</span>
                     <span class="font-bold text-lg">₹ <%= food.item.price * food.qty %></span>
+                    <button class="ml-12" id="deleteCartButton" data-food-id="<%= food.item._id %>">Delete</button>
                 </div>
                 <%  } %>
 

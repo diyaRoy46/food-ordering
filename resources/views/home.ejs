@@ -1,6 +1,6 @@
 
     <section class="hero py-2">
-        <div class="container mx-auto flex items-center justify-around">
+        <div class="container mx-auto flex items-center justify-around px-6">
             <div class="w-1/2 px-12">
                 <h6 class="text-lg"><em>Want something Tasty?</em></h6>
                 <h2 class="text-3xl md:text-6xl font-bold">Come here!</h2>
@@ -12,20 +12,21 @@
         </div>
     </section>
 
-    <section class="menu container mx-auto py-8">
-    <h1 class="text-xl font-bold mb-8 mx-6">Our Menu</h1>
+    <section class="menu container mx-auto px-10 py-10">
+    <h1 class="text-3xl font-bold mb-10 mx-6"><u>Our Menu</u></h1>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 col-gap-12 row-gap-16" >
         <% food.forEach(function(food) { %>
             <div class="w-full md:w-68">
                 <img class="h-40  mb-4 mx-auto" src="/img/<%= food.image %>" alt="">
             <div class="text-center">
-                <h2 id="names" class="mb-4 text-lg"><%= food.name %></h2>
+            <h2 id="foodNames" class="mb-4 text-lg"><%= food.name %></h2>
             <div class="flex items-center justify-around mt-6">
                 <span class="font-bold text-lg">₹<%= food.price %></span>
-                <button data-food="<%= JSON.stringify(food) %>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                <button data-food="<%= JSON.stringify(food) %>" id="add-to-cart" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
                     <span>+</span>
                     <span class="ml-4">Add</span>
                 </button>
+                
             </div>
             </div>
             </div>
@@ -35,7 +36,4 @@
         
     </div>
     </section>
-    <script src="/resources/js/app.js"></script>
-    <script src="/resources/views/search.js"></script>
-</body>
-</html>
+    

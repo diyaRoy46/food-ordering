@@ -1,7 +1,7 @@
 import axios from 'axios'
-import { initAdmin } from './admin'
+import { initAdmin } from '../js/admin'
 import moment from 'moment'
-import { initStripe } from './stripe'
+import { initStripe } from '../js/stripe'
 
 let addToCart = document.querySelectorAll('.add-to-cart')
 let cartCounter = document.querySelector('#cartCounter')
